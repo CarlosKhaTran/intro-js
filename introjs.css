@@ -127,8 +127,8 @@ tr.introjs-showElement > th {
   box-sizing: content-box;
   position: absolute;
   visibility: visible;
-  top: -16px;
-  left: -16px;
+  bottom: -8px;
+  left: -18px;
   z-index: 9999999999 !important;
   padding: 2px;
   font-family: Arial, verdana, tahoma;
@@ -325,7 +325,7 @@ tr.introjs-showElement > th {
   -webkit-border-radius: 0.2em 0 0 0.2em;
   -moz-border-radius: 0.2em 0 0 0.2em;
   border-radius: 0.2em 0 0 0.2em;
-  border-right: none;
+  /* border-right: none; */
 }
 
 .introjs-prevbutton.introjs-fullbutton {
@@ -356,6 +356,7 @@ tr.introjs-showElement > th {
   cursor: default;
   background-color: #f4f4f4;
   background-image: none;
+  display: none;
   text-decoration: none;
 }
 

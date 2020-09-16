@@ -9,7 +9,7 @@
 }
 .introjs-prevbutton {
   border: 1px solid #d4d4d4;
-  border-left: none;
+  /* border-left: none; */
   -webkit-border-radius: 0 0.2em 0.2em 0;
   -moz-border-radius: 0 0.2em 0.2em 0;
   border-radius: 0 0.2em 0.2em 0;
@@ -22,5 +22,5 @@
 }
 
 .introjs-bullets ul li {
-    float: right;
+  float: right;
 }
